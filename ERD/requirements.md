@@ -1,6 +1,10 @@
+Sure bro, here’s your data model formatted cleanly in **Markdown**:
+
 ---
 
-## 🏠 Property
+# 📦 Entities and Attributes
+
+## 🧑‍💼 User
 
 * `user_id`: **Primary Key**, `UUID`, `Indexed`
 * `first_name`: `VARCHAR`, `NOT NULL`
