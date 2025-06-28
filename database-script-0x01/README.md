@@ -29,25 +29,3 @@ The `schema.sql` file contains the SQL DDL statements to create the necessary ta
 2. Navigate to the `database-script-0x01` directory.
 3. Run the `schema.sql` file on your PostgreSQL or MySQL database server.
 
-# Database Seeding Script for AirBnB-like Application
-
-This directory contains the SQL script for seeding (populating) the Airbnb Clone database with realistic sample data. This script uses Data Manipulation Language (DML) commands to insert records into the tables created by the `schema.sql` script.
-
-## Seeding Structure
-
-This script populates the database with sample records, including:
-  - Users (with different roles)
-  - Properties (listed by hosts)
-  - Bookings (made by guests)
-  - Payments (for confirmed bookings)
-  - Reviews (for completed stays)
-  - Messages (between users).
-
-## SQL Script
-
-The `schema.sql` file contains the SQL DDL statements to create the necessary tables and relationships. It defines the primary keys, foreign keys, and appropriate data types for each attribute.
-
-## How to use seed.sql
-
-This script should be executed **after** the `schema.sql` script has been run successfully.
-
