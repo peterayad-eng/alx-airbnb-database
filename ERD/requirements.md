@@ -1,5 +1,7 @@
 ---
 
+Entities and Attributes
+
 * `user_id`: **Primary Key**, `UUID`, `Indexed`
 * `first_name`: `VARCHAR`, `NOT NULL`
 * `last_name`: `VARCHAR`, `NOT NULL`
