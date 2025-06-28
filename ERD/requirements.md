@@ -1,6 +1,6 @@
 ---
 
-Entities and Attributes
+## 🏠 Property
 
 * `user_id`: **Primary Key**, `UUID`, `Indexed`
 * `first_name`: `VARCHAR`, `NOT NULL`
