@@ -18,3 +18,15 @@ Retrieves all properties and their reviews, including properties that have no re
 
 Retrieves all users and all bookings, even if the user has no booking or a booking is not linked to a user. Since MySQL doesn't directly support FULL OUTER JOIN, this is implemented using a UNION of LEFT JOIN and RIGHT JOIN.
 
+## Subqueries (subqueries.sql)
+
+The `subqueries.sql` file contains SQL queries demonstrating both correlated and non-correlated subqueries:
+
+### 1. Non-correlated Subquery
+
+Finds all properties where the average rating is greater than 4.0. This query uses a subquery to calculate the average rating for each property.
+
+### 2. Correlated Subquery
+
+Finds users who have made more than 3 bookings. This query uses a correlated subquery where the inner query references the outer query's table.
+
