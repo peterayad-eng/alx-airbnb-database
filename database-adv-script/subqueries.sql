@@ -14,7 +14,7 @@ WHERE sub_query.avg_rating > 4.0;
 -- 2- correlated subquery to find users who have made more than 3 bookings
 -- =======================================================================
 
-SELECT u.first_name, u.last_name, u.email, (
+SELECT u.user_id, u.first_name, u.last_name, u.email, (
 	SELECT COUNT(*) FROM Booking b
 	WHERE b.user_id = u.user_id) AS booking_count
 FROM 'User' u

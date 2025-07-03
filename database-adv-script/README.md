@@ -30,3 +30,15 @@ Finds all properties where the average rating is greater than 4.0. This query us
 
 Finds users who have made more than 3 bookings. This query uses a correlated subquery where the inner query references the outer query's table.
 
+## Aggregations and Window Functions (aggregations_and_window_functions.sql)
+
+The `aggregations_and_window_functions.sql` file contains SQL queries demonstrating the use of aggregation functions and window functions for data analysis:
+
+### 1. Aggregation with COUNT and GROUP BY
+
+Finds the total number of bookings made by each user using the COUNT function and GROUP BY clause.
+
+### 2. Window Functions for Ranking
+
+Ranks properties based on the total number of bookings they have received using the RANK() window function.
+
