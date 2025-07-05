@@ -17,15 +17,15 @@ Testing a query filtering by date range:
 
 ## Observations
 
-1- Query Execution Time:
+1. Query Execution Time:
    - Non-partitioned table: 450ms (full table scan)
    - Partitioned table: 28ms (only scans relevant partition)
 
-2- Resource Utilization:
+2. Resource Utilization:
    - 80% reduction in memory usage for date-range queries
    - 60% reduction in disk I/O operations
 
-3- Maintenance Benefits:
+3. Maintenance Benefits:
    - Older partitions can be archived or dropped without affecting current data
    - Backup operations can be performed on individual partitions
 
